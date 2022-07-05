@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    background-color: white;
+    
+}
+
+header{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuHeaderTop menu ul li{
+    display: inline-block;
+    margin: 22px;
+}
+
+menu ul li:hover{
+color: #C13512;
+font-weight: bold;
+}
+
+#buttonHeader {
+    background-color: #C13512;
+    font-size: 14px;
+    color: white;
+    border: none;
+    width: 110px;
+    height: 40px;
+}
+
+#buttonHeader:hover{
+    background-color: #023F3A;
+    color: white;
+}
+
+.home{
+    width: 1440px;
+    height: 737px;
+    background-image: url(../Components/BG.png);
+}
+
+.buttons{
+    margin-top: 50px;
+}
+
+.headerHome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.headerHome h1{
+    font-size: 56px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 12px;
+}
+
+#buttonIniciar{
+width: 202px;
+height: 48px;
+border: 1px solid white;
+color: white;
+background-color: transparent;
+font-size: 18px;
+font-family: 'Josefin Sans', sans-serif;
+margin-right: 30px;
+}
+
+#buttonIniciar:hover{
+    background-color: white;
+    color: #023F3A;
+}
+
+#buttonLivre{
+width: 226px;
+height: 48px;
+border: none;
+background-color: white;
+font-size: 18px;
+color: #023F3A;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#buttonLivre:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+#estufa{
+    margin-top: 30px;
+   margin-left: 308px;
+}
+
+.mission{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 1440px;
+height: 701px;
+}
+
+.headerMission{
+    margin-top: 280px;
+}
+
+.headerMission h2{
+    color: #023F3A;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.headerMission p{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 111px;
+    margin-top: 30px;
+}
+
+.vantagens p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#organic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 40px;
+}
+
+#certified{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#fast{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    margin-top: 240px;
+}
+
+aside img{
+    margin-bottom: 40px;
+}
+
+.cards{
+    margin-top: 100px;
+    width: 1110px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 165px;
+    margin-bottom: 164px;
+}
+
+.cards h1{
+    font-size: 48px;
+    color: #023F3A;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+.cardAll{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#headerCard{
+    margin-top: 234px;
+    margin-left: 18px;
+}
+
+.cardAll h4{
+    font-size: 24px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.cardAll p{
+    font-size: 16px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+}
+
+#card1{
+    width: 350px;
+    height: 362px;
+    border-radius: 12px;
+    background-image: url(../Components/leader.png);
+    
+}
+
+#card2{
+    width: 350px;
+    height: 362px;
+    border-radius: 12px;
+    background-image: url(../Components/uvas.png);
+}
+
+#card3{
+    width: 350px;
+    height: 362px;
+    border-radius: 12px;
+    background-image: url(../Components/Estufa.png);
+}
+
+.depoiments{
+    width: 1440px;
+    height: 533px;
+    background-color: #F2EEE9;
+}
+
+.depoiments h1{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    color: #023F3A;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1110px;
+    height: 222px;
+    margin-top: 186px;
+    margin-left: 169px;
+}
+
+.container img{
+    width: 72px;
+    height: 72px;
+    justify-content: center;
+    margin-left: 137px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.container p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+#depUm{
+    width: 347px;
+    height: 222px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#depDois{
+    width: 347px;
+    height: 222px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#depTres{
+    width: 347px;
+    height: 222px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.rediscover{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 475px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.rediscover h1{
+    margin-top: 64px;
+    align-items: center;
+    font-size: 48px;
+    color: #023F3A;
+}
+
+.cultures{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    width: 1110px;
+    margin-left: 165px;
+    margin-top: 41px;
+}
+
+.cultures p{
+    color: #023F3A;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.videoArea{
+    width: 1440px;
+    height: 491px;
+    background-color: #F2EEE9;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerVideo{
+    margin-right: 130px;
+}
+
+.headerVideo h3{
+    font-size: 32px;
+    color: #023F3A;
+    margin-bottom: 24px;
+}
+
+.headerVideo p{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #525560;
+    margin-bottom: 24px;
+}
+
+#buttonVideo{
+    background-color: #023F3A;
+    font-size: 14px;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+
+#buttonVideo:hover{
+    background-color: #C13512;
+}
+
+.video video{
+    width: 589px;
+    height: 393px;
+margin-left: 165px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 510px;
+    margin-top: 60px;
+}
+
+.contactIcons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 374px;
+    margin-left: 165px;
+}
+
+.contactIcons p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: #525560;
+    margin-top: 10px;
+}
+
+.inputsArea{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 206px;
+}
+
+#inputEmail{
+    width: 474px;
+    height: 46px;
+    border-radius: 8px;
+    border: 1px solid #D5DAE1;
+}
+
+#inputEmail::placeholder {
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.inputsArea label{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+#inputMessage{
+  width: 474px;
+  height: 220px;
+  border-radius: 8px;
+  border: 1px solid #D5DAE1;
+}
+
+#labelMessage{
+    margin-top: 24px;
+}
+
+#inputsButton{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 474px;
+    height: 56px;
+    background-color: #023F3A;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-top: 24px;
+}
+
+footer{
+    width: 1440px;
+    height: 527px;
+    background-color: #F2EEE9;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoFooter{
+    margin-top: -106px;
+    margin-left: 183px;
+}
+
+.menuFooter{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 210px;
+}
+
+#links menu ul li{
+    list-style: none;
+    line-height: 25px;
+}
+
+#products{
+    margin-left: 71px;
+}
+
+#products menu ul li{
+    list-style: none;
+    line-height: 25px;
+}
+
+#contacts{
+margin-left: 71px;
+}
+
+#contacts menu ul li{
+    list-style: none;
+    line-height: 25px;
+}
+
+.socialFooter{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.socialFooter h4{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.imagesFooter img{
+margin-left: 21px;
+}
